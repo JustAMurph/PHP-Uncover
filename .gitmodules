@@ -1,0 +1,3 @@
+[submodule "tests/TestApplications"]
+	path = tests/TestApplications
+	url = git@github.com:JustAMurph/PHPUncover-TestApplications.git

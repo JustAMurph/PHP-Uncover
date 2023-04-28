@@ -1,0 +1,21 @@
+####
+####
+#### This is a custom rules YAML file.
+####
+####
+####
+sources:
+  - - this
+    - input
+    - customSource
+
+sinks:
+  test:
+    name: "test"
+    signature:
+      - this
+      - load
+      - customSink
+    description: "abcdef"
+    remediation: "please fix."
+

@@ -1,0 +1,164 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import "~bootstrap-icons/font/bootstrap-icons";
+
+#logo {
+    max-width: 50px;
+}
+
+.bottom-border-grey {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+
+@layer components {
+    .grid-box {
+        @apply bg-white
+
+    }
+}
+
+header h2 {
+    margin: 0px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+
+.page-heading {
+    background: #16a085;
+
+    h2 {
+        color: white;
+        font-size: 1.4rem;
+    }
+}
+
+
+.card-purple {
+    background: #8e44ad;
+}
+
+.card-blue {
+    background: #2980b9
+}
+
+.card-green {
+    background: #16a085;
+}
+
+.card-orange {
+    background: #d35400
+}
+
+.card-with-icon {
+    color: white;
+
+    .card-body {
+        padding-left:85px;
+    }
+
+    .card-number {
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    .card-icon {
+        font-size: 46px;
+        color: white;
+        opacity: 0.7;
+        position: absolute;
+        left: 15px;
+    }
+}
+
+
+.card-alert {
+    color: white;
+    border-radius: 5px;
+}
+
+header {
+    padding: 1rem 0;
+}
+
+.table th {
+    @extend .text-center;
+}
+
+.table td {
+    @extend .align-middle, .text-center;
+}
+
+nav .notification {
+    padding: 8px 0;
+    .bi {
+    }
+}
+
+nav a {
+    color: #525252;
+}
+
+.plugin-logo {
+    max-width: 100px;
+
+}
+
+table {
+    margin-bottom: 0px !important;
+    tbody tr:last-child {
+        td {
+            margin-bottom: 0px;
+            border-bottom: 0;
+        }
+    }
+}
+
+.single-page {
+    .logo {
+        img, svg {
+            max-width: 125px;
+        }
+    }
+
+    .container {
+        @extend .mt-3;
+        max-width: 700px;
+    }
+
+    input[type=text], input[type=password], input[type=email] {
+        @extend .form-control;
+    }
+
+    form button {
+        @extend .btn-primary, .text-white;
+    }
+}
+
+.vulnerability-subtitle {
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+
+.evaluation-survey {
+    background: #2980b9;
+    padding: 5px 10px;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid #34495e;
+
+    a {
+        color: #f1c40f;
+    }
+}

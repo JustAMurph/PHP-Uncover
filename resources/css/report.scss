@@ -1,0 +1,123 @@
+* {
+    font-family: 'Rubik', sans-serif;
+    color: #2c3e50;
+}
+
+body {
+    background-color: gray;
+}
+
+.container {
+
+    max-width: 980px;
+
+    margin: auto;
+
+
+}
+
+header {
+    background: #16a085;
+    padding: 0px 15px;
+    h1 {
+        color: white;
+        color: white;
+        display: inline-block;
+        font-weight: lighter;
+
+    }
+}
+
+
+.innerContainer {
+}
+
+main {
+    border: 1px solid #e7e7e7;
+
+    background-color: white;
+    padding: 15px;
+}
+
+
+.tabs ul {
+    margin: 0;
+    padding: 0;
+    li {
+        display: inline-block;
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            border: 1px solid #e7e7e7;
+            text-decoration: none;
+            color: #525252;
+        }
+    }
+}
+
+.tab-item {
+    display: none;
+}
+.tab-show {
+    display: inline-block;
+}
+
+.tab-active {
+    background: #2980b9;
+    color: white !important;
+}
+
+
+.vulnerability {
+    border: 1px solid #e7e7e7;
+    padding: 0px 15px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+}
+
+
+.vulnerability-severity {
+    font-size: 13px;
+    font-weight: normal;
+    background: green;
+    padding: 5px 11px;
+    border-radius: 5px;
+    color: white;
+}
+
+.vulnerability-severity-critical {
+    background: #c0392b;
+}
+
+.vulnerability-severity-high {
+    background: #d35400;
+}
+
+.vulnerability-severity-medium {
+    background: #f39c12;
+}
+
+.vulnerability-subtitle {
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+
+#settings {
+    max-width: 100%;
+    display: inline-block;
+
+    pre {
+        max-width: 100%;
+        word-break: break-all;
+        white-space: pre-wrap;
+        white-space: -moz-pre-wrap;
+        white-space: -pre-wrap;
+        white-space: -o-pre-wrap;
+        word-wrap: break-word;
+    }
+}
+
+
+
+
